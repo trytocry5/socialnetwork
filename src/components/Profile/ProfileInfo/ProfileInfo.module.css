@@ -1,0 +1,36 @@
+.title_block img{
+    width: 100%;
+    height: 200px;
+  }
+
+hr {
+    height: 1px;
+    background: black;
+    border: none;
+}
+
+.descriptionBlock {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+.descriptionPhoto {
+  padding-right: 20px;
+}
+
+.descriptionPhoto img{
+  width: 100%;
+}
+
+.description h2 {
+  text-transform: uppercase;
+}
+
+.description .yes {
+  color:greenyellow;
+}
+
+.description .no {
+  color:red;
+}

@@ -1,0 +1,35 @@
+.loginSection {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.loginFormBlock {
+  max-width: 300px;
+  width: 100%;
+  padding: 30px;
+  background: white;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.fieldBlock input {
+  width: 100%;
+}
+.fieldBlockCheckbox {
+  width: 100%;
+  height: 30px;
+}
+.fieldBlockCheckbox input, .fieldBlockCheckbox label {
+  float: left;
+  text-align: left;
+}
+
+.error {
+  color:red;
+  font-weight: 500;
+}

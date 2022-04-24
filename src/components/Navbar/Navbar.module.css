@@ -1,0 +1,65 @@
+.nav {
+    grid-area: n;
+    background-color: #424142;
+    padding: 20px 40px 20px 20px;
+    min-height: 100vh;
+    width: 170px;
+  }
+
+nav {
+  margin-bottom: 40px;
+} 
+.item {
+  padding: 4px 4px 4px 10px;
+  border-radius: 4px;
+  margin:6px 0;
+  width: 100%;
+  transition: .3s ease;
+} 
+nav a{
+    color:white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .3s ease;
+}
+
+.item .icon {
+  font-size:22px;
+  padding-right:6px;
+  position:relative; 
+  top:4px;
+}
+
+nav a.active .item {
+  color: #424142;
+  background-color: aliceblue;
+}
+
+nav a:hover .item {
+  color: #424142;
+  font-weight: 400;
+}
+
+nav a:hover .item{
+  background-color: aliceblue;
+}
+
+.friends_block {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.friend_item {
+  display:block;
+}
+
+.friend_item img {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.friend_item span {
+  display: block;
+}

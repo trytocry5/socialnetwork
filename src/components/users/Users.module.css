@@ -1,0 +1,29 @@
+.usersContainer {
+    margin: 40px;
+}
+
+.usersContainer img{
+    width: 50px;
+}
+.pagination {
+    width: 100%;
+    overflow: hidden;
+    padding: 6px 0;
+    margin-bottom: 20px;
+}
+.pagination span {
+    margin-right: 5px;
+    cursor: pointer;    
+    background: grey;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    color:red;
+}
+
+.userBlock{
+    margin-bottom: 20px;
+}

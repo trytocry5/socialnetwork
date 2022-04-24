@@ -1,0 +1,40 @@
+.messegesWrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.dialogs .active {
+    color: red;
+}
+
+.dialog {
+    margin: 40px;
+}
+
+.dialog_link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dialog img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.messeges {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
